@@ -66,3 +66,4 @@ build-unity-android_BackUpThisFolder_ButDontShipItWithYourGame
 build-android_BurstDebugInformation_DoNotShip
 build-unity-android_BurstDebugInformation_DoNotShip
 Assets/Agora-RTC-Plugin
+build_mac.app
