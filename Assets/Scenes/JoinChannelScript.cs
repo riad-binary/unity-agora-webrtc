@@ -22,14 +22,13 @@ public class JoinChannelScript : MonoBehaviour
     internal IRtcEngine RtcEngine;
 
 
+    #if (UNITY_2018_3_OR_NEWER && UNITY_ANDROID)
+        private ArrayList permissionList = new ArrayList() { Permission.Microphone };
+    #endif
+
     // Start is called before the first frame update
     void Start()
     {
-        
-        #if (UNITY_2018_3_OR_NEWER && UNITY_ANDROID)
-            private ArrayList permissionList = new ArrayList() { Permission.Microphone };
-        #endif
-
         SetupVoiceSDKEngine();
         InitEventHandler();
         SetupUI();
@@ -132,6 +131,7 @@ public class JoinChannelScript : MonoBehaviour
             Leave();
             RtcEngine.Dispose();
             RtcEngine = null;
+
         }
     }
 
