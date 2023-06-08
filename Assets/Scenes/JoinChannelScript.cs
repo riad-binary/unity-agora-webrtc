@@ -18,7 +18,7 @@ public class JoinChannelScript : MonoBehaviour
     // Fill in your channel name.
     private string _channelName = "ch1";
     // Fill in the temporary token you obtained from Agora Console.
-    private string _token = "007eJxTYGhd+WP1o3KRLjED80RZx62BhVx8LG4WG7Ved+XWGS/PXqzAYG6cZGppmGZkYZ5oYWJgZJSYmmphamZqamqcapKWnJpaeKw+pSGQkUH9wAVGRgYIBPGZGZIzDBkYAGnjHJE=";
+    private string _token = "007eJxTYChYF8Z0eP+G0mW89t2NIp7pM9kOx7Tq/ZqwLn/X2/mr+rkUGMyNk0wtDdOMLMwTLUwMjIwSU1MtTM1MTU2NU03SklNTV8s3pjQEMjLcTZjFwsgAgSA+M0NyhiEDAwAI0R6R";
     internal IRtcEngine RtcEngine;
 
 
