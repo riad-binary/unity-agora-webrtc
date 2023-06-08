@@ -1,6 +1,6 @@
 # unity-agora-webrtc
 
-# Agora Unity Quick Start****
+# Agora Unity Quick Start
 
 QuickStart Reference URL: 
 
